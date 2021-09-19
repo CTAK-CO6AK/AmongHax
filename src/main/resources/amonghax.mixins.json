@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.ctak_co6ak.amonghax.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "ChatMessageMixin",
+    "ContainerOpenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

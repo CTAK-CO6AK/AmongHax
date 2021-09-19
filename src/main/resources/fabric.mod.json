@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "amonghax",
+  "version": "${version}",
+
+  "name": "AmongHax",
+  "description": "Automatic task completion and impostor detection.",
+  "authors": [
+    ""
+  ],
+
+
+  "license": "CC0-1.0",
+  "icon": "assets/amonghax/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.ctak_co6ak.amonghax.AmongHaxMain"
+    ]
+  },
+  "mixins": [
+    "amonghax.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
